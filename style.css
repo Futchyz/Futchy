@@ -1,0 +1,158 @@
+body {
+    background-color: #d3e7e2; 
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+}
+
+body {margin: 0;}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li:hover a:not(.active) {
+    background-color: #7e7e7e;
+}
+
+ul.topnav li a.active {
+    background-color: #2600ff;
+}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px){
+    ul.topnav,
+    ul.topnav {position: absolute}
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+}
+
+ul.topnav .dropdown-content {
+  display: none;
+  position: absolute;
+}
+ul.topnav .dropdown-content a {
+  color: black;
+}
+ul.topnav .dropdown:hover > .dropdown-content {
+  display: block;
+  color: aqua;
+}
+
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+.iframe-container{
+  position: absolute;
+  top: 30;
+  left: 25%;
+  width: 100%;
+  height: 100%;
+}
+
+.header1-text{
+  text-align: center;
+}
+
+.hero-image {
+  background-image: url("school1.jpg");
+  background-color: #cccccc;
+  height: 750px;
+  background-position: all;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 255, 255);
+}
+
+a:link#test, a:visited#test {
+  background-color: DodgerBlue;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover#test, a:active#test {
+  background-color: SlateBlue;
+}
+
+body {
+  background-image: url('background1.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: absolute;
+}
+
+.container {
+  position: relative;
+  font-family: Arial;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  left: 0px;
+  background-color: #333;
+  color: white;
+  padding-left: 10px;
+  padding-right: 325px;
+  padding-top: 450px;
+}
+
+hr {
+  width: 1500px;
+  padding: 0px;
+  height: 1px;
+  background-color: #333;
+}
+  
+.text { 
+   position: absolute;
+   bottom: 320px;
+   padding-top: 0px;
+    
+}
+
+a:link {
+  color: black;
+  font-weight: bold;
+  background-color: transparent;
+  text-decoration: none;
+
+}
+a:visited {
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  text-decoration: none;
+}
+
